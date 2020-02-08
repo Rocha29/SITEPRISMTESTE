@@ -1,0 +1,12 @@
+
+Quando("acesso url") do
+   @home = PaginaInicial.new
+   @home.load
+   
+  end
+  
+  Então("verifico se estou na página inicial") do
+    expect(page).to have_current_path('http://automacaocombatista.herokuapp.com/treinamento/home', url:true)
+  
+end
+  
