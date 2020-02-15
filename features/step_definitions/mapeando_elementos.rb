@@ -1,8 +1,6 @@
 
 Quando("preencho o formulario.") do
-    @mapeando = MapeandoElementoPage.new
-    @mapeando.load
-
-    @mapeando.preencher
+    home.load
+    home.preencher
     sleep(5)
   end
