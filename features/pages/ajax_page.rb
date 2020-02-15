@@ -8,5 +8,5 @@ class AjaxPage < SitePrism::Page
        wait_for_botao
         botao.click
     end    
-    
+    sleep (5)
 end
